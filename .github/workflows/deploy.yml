@@ -1,14 +1,18 @@
-name: Build Hugo site
+name: Build and Deploy Hugo site to /docs folder on main branch
 
 on:
   push:
     branches: [main]
 
+permissions:
+  contents: write
+
 jobs:
-  build:
+  build-deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
           submodules: true
@@ -30,3 +34,17 @@ jobs:
 
       - name: Build site
         run: hugo --minify
+
+      - name: Copy public to docs
+        run: |
+          rm -rf docs
+          mkdir docs
+          cp -r public/* docs/
+
+      - name: Commit and Push changes to main branch
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs
+          git commit -m "Actualizar sitio en /docs [skip ci]" || echo "No hay cambios para commitear"
+          git push origin main
