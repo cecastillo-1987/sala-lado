@@ -5,7 +5,7 @@ on:
     branches: [main]
 
 permissions:
-  contents: write  # Necesario para el deploy a gh-pages
+  contents: write
 
 jobs:
   build-deploy:
@@ -18,14 +18,19 @@ jobs:
           submodules: true
           fetch-depth: 0
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Dart Sass via npm
+        run: npm install -g sass
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: '0.119.0'
           extended: true
-
-      - name: Install Dart Sass
-        run: sudo snap install sass
 
       - name: Build site
         run: hugo --minify
