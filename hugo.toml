@@ -6,7 +6,7 @@ summarylength = 20
 publishDir = "docs"
 
 [params]
-customCss = ["css/custom.css"]
+title = 'La Sala del Lado'
 author = "La sala del lado"
 description = "Blog de escrituras cinefilas."
 profilePicture = "images/la-maleta.jpg"
