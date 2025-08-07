@@ -8,7 +8,7 @@ summarylength = 20
 [params]
 author = "La sala del lado"
 description = "Blog de escrituras cinefilas."
-profilePicture = "images/la-maleta.jpeg"
+profilePicture = "images/la-maleta.jpg"
 mainSections = ["posts"]
 contentratio = 0.7
 disableThemeSwitcher = false
