@@ -1,0 +1,4 @@
+baseURL = '/'
+languageCode = 'es-cl'
+title = 'La Sala del Lado'
+theme = 'anatole'
