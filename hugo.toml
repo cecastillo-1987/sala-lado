@@ -6,12 +6,13 @@ summarylength = 20
 publishDir = "docs"
 
 [params]
+customCss = ["css/custom.css"]
 title = 'La Sala del Lado'
 author = "La sala del lado"
 description = "Blog de escrituras cinefilas."
 profilePicture = "images/la-maleta.jpg"
 mainSections = ["posts"]
-contentratio = 0.75
+contentratio = 0.7
 disableThemeSwitcher = false
 hidesidebar = false
 reversepagetitle = true

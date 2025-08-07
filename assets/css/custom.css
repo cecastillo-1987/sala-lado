@@ -1,0 +1,36 @@
+/* Custom CSS condensado para el tema Anatole */
+/* --- Importación de fuentes --- */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+EAN13+Text&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+/* --- Aplicación de fuentes --- */
+.post__content h1,
+.post__content h2,
+.post__content h3,
+.post__content h4,
+.post__content h5,
+.post__content h6,
+.post__footer-date,
+.sidebar__introduction-title a,
+.sidebar__introduction-title h1 {
+font-family: 'Playfair Display', serif !important;
+}
+body {
+font-family: 'Lato', sans-serif !important;
+}
+/* --- Ajustes de texto --- */
+.nav__list-item,
+.sidebar__introduction-title {
+text-transform: none !important;
+}
+
+/* --- Corrección de color de texto para títulos y menú --- */
+.theme--light .sidebar__introduction-title a,
+.theme--light .sidebar__introduction-title h1,
+.theme--light .nav__list-item a {
+color: #202620 !important;
+}
+.theme--dark .sidebar__introduction-title a,
+.theme--dark .sidebar__introduction-title h1,
+.theme--dark .nav__list-item a {
+color: #E3F2E4 !important;
+}
