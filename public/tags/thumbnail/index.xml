@@ -2,50 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Thumbnail on La Sala del Lado</title>
-    <link>/tags/thumbnail/</link>
+    <link>https://cecastillo-1987.github.io/sala-lado/tags/thumbnail/</link>
     <description>Recent content in Thumbnail on La Sala del Lado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-cl</language>
-    <lastBuildDate>Wed, 06 Aug 2025 00:24:38 -0400</lastBuildDate><atom:link href="/tags/thumbnail/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Aug 2025 00:24:38 -0400</lastBuildDate><atom:link href="https://cecastillo-1987.github.io/sala-lado/tags/thumbnail/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Post De Prueba</title>
-      <link>/posts/post-de-prueba/</link>
+      <link>https://cecastillo-1987.github.io/sala-lado/posts/post-de-prueba/</link>
       <pubDate>Wed, 06 Aug 2025 00:24:38 -0400</pubDate>
       
-      <guid>/posts/post-de-prueba/</guid>
+      <guid>https://cecastillo-1987.github.io/sala-lado/posts/post-de-prueba/</guid>
       
         <description>&lt;p&gt;¡Hola a todos!&lt;/p&gt;
-&lt;p&gt;Este es el contenido de mi primer post de prueba. He creado este post para verificar que mi sitio de Hugo está funcionando correctamente con el tema Anatole.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;encabezados&#34;&gt;Encabezados&lt;/h3&gt;
-&lt;p&gt;Aquí hay un ejemplo de diferentes niveles de encabezados para ver si se muestran bien.&lt;/p&gt;
-&lt;h4 id=&#34;subtítulo-nivel-4&#34;&gt;Subtítulo Nivel 4&lt;/h4&gt;
-&lt;p&gt;Este es un subtítulo.&lt;/p&gt;
-&lt;h5 id=&#34;subtítulo-nivel-5&#34;&gt;Subtítulo Nivel 5&lt;/h5&gt;
-&lt;p&gt;Este es otro subtítulo.&lt;/p&gt;
-&lt;h3 id=&#34;formato-de-texto&#34;&gt;Formato de texto&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Negrita&lt;/strong&gt;: Un texto en &lt;strong&gt;negrita&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Cursiva&lt;/em&gt;: Un texto en &lt;em&gt;cursiva&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Código&lt;/code&gt;: Un fragmento de &lt;code&gt;código en línea&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;listas&#34;&gt;Listas&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;Primer ítem de una lista numerada.&lt;/li&gt;
-&lt;li&gt;Segundo ítem.
-&lt;ul&gt;
-&lt;li&gt;Un sub-ítem.&lt;/li&gt;
-&lt;li&gt;Otro sub-ítem.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Tercer ítem.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;Primer ítem de una lista con viñetas.&lt;/li&gt;
-&lt;li&gt;Segundo ítem.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;enlaces&#34;&gt;Enlaces&lt;/h3&gt;
-&lt;p&gt;Aquí tienes un &lt;a href=&#34;https://gohugo.io/&#34;&gt;enlace a la página de Hugo&lt;/a&gt;.&lt;/p&gt;</description>
+&lt;p&gt;Este es el contenido de mi primer post de prueba. He creado este post para verificar que mi sitio de Hugo está funcionando correctamente con el tema Anatole.&lt;/p&gt;</description>
       
     </item>
     

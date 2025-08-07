@@ -1,4 +1,52 @@
-baseURL = '/'
+baseURL = 'https://cecastillo-1987.github.io/sala-lado/'
 languageCode = 'es-cl'
 title = 'La Sala del Lado'
 theme = 'anatole'
+summarylength = 20
+
+
+[params]
+author = "La sala del lado"
+description = "Blog de escrituras cinefilas."
+profilePicture = "images/la-maleta.jpeg"
+mainSections = ["posts"]
+contentratio = 0.7
+disableThemeSwitcher = false
+hidesidebar = false
+reversepagetitle = true
+disableTitleCapitalization = true
+disableArchiveTitleStyling  = true
+localizedDates = true
+singleDateFormat = "2 de Enero de 2006"
+indexDateFormat = "2 de Enero de 2006"
+doNotLoadAnimations = true
+copyright = "2025-{{ YEAR }}"
+
+[[params.socialIcons]]
+icon = "fab fa-twitter"
+title = "Twitter"
+url = "https://x.com/tu-usuario"
+
+[[params.socialIcons]]
+icon = "fab fa-instagram"
+title = "Instagram"  # Cambiado de "Twitter"
+url = "https://instagram.com/tu-usuario"
+
+[menu]
+  [[menu.main]]
+  name = "Inicio"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Entradas"
+  weight = 200
+  identifier = "posts"
+  url = "/posts/"
+
+  [[menu.main]]
+  name = "Colabora"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
