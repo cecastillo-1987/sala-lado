@@ -1,18 +1,14 @@
-name: Deploy Hugo site to GitHub Pages
+name: Build Hugo site
 
 on:
   push:
     branches: [main]
 
-permissions:
-  contents: write
-
 jobs:
-  build-deploy:
+  build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v4
         with:
           submodules: true
@@ -23,7 +19,7 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install Dart Sass via npm
+      - name: Install Dart Sass
         run: npm install -g sass
 
       - name: Setup Hugo
@@ -34,10 +30,3 @@ jobs:
 
       - name: Build site
         run: hugo --minify
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-          publish_branch: gh-pages
