@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thumbnail on La Sala del Lado</title>
+    <link>https://cecastillo-1987.github.io/sala-lado/tags/thumbnail/</link>
+    <description>Recent content in Thumbnail on La Sala del Lado</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Wed, 06 Aug 2025 00:24:38 -0400</lastBuildDate><atom:link href="https://cecastillo-1987.github.io/sala-lado/tags/thumbnail/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Post De Prueba</title>
+      <link>https://cecastillo-1987.github.io/sala-lado/posts/post-de-prueba/</link>
+      <pubDate>Wed, 06 Aug 2025 00:24:38 -0400</pubDate>
+      
+      <guid>https://cecastillo-1987.github.io/sala-lado/posts/post-de-prueba/</guid>
+      
+        <description>&lt;p&gt;¡Hola a todos!&lt;/p&gt;
+&lt;p&gt;Este es el contenido de mi primer post de prueba. He creado este post para verificar que mi sitio de Hugo está funcionando correctamente con el tema Anatole.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

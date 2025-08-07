@@ -3,14 +3,15 @@ languageCode = 'es-cl'
 title = 'La Sala del Lado'
 theme = 'anatole'
 summarylength = 20
-
+publishDir = "docs"
 
 [params]
+customCss = ["css/custom.css"]
 author = "La sala del lado"
 description = "Blog de escrituras cinefilas."
 profilePicture = "images/la-maleta.jpg"
 mainSections = ["posts"]
-contentratio = 0.6
+contentratio = 0.75
 disableThemeSwitcher = false
 hidesidebar = false
 reversepagetitle = true
