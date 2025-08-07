@@ -4,30 +4,28 @@ on:
   push:
     branches: [main]
 
+permissions:
+  contents: write  # Necesario para el deploy a gh-pages
+
 jobs:
-  deploy:
+  build-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
           submodules: true
           fetch-depth: 0
 
-      - name: Setup Node.js (para instalar Dart Sass)
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-
-      - name: Instalar Dart Sass
-        run: npm install -g sass
-
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'latest'
+          hugo-version: '0.119.0'
           extended: true
+
+      - name: Install Dart Sass
+        run: sudo snap install sass
 
       - name: Build site
         run: hugo --minify
